@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    font-family: sans-serif;
+      background-color:black;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding:30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+      
+}
+
+.logo{
+    font-size: 2em;
+    color: red;
+    cursor: default;
+}
+
+.navigation a{
+     font-size: 1.1em;
+     color:white;
+     text-decoration: double;
+     margin-right: 40px;
+     font-weight: 500;
+     font-style: bold;
+}
+
+.hero-text{
+    color: red;
+   font-size: 30px;
+    transform: translateX(800px) translateY(-300px);
+    
+    background-size: 100%;
+    
+
+}
+
+
+.Home123{
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    padding-top: 4rem;
+    margin: 0;
+}
+#photo{
+    
+    border-radius:50%;
+    padding-top: 1cm;
+    
+
+}
+
+
+.bold{
+    
+    color: azure;
+}
+#About{
+    padding-top: 12cm;
+    color: red;
+}
+.fonty{
+    font-size: 50px;
+    color: white;
+    
+    transform: translateY(-400px) translateX(100px)
+}
+.aboutme{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    line-height: 50px;
+    transform: translateY(-300px) translateX(50px)
+}
+#btn{
+    padding: 10px 5px;
+    background-color:azure;
+    color:red;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transform: translateY(-280px) translateX(50px)
+}
+#Services{
+    padding-top: 3cm;
+    padding-bottom: 3cm;}
+
+    #wb1 {color:red;
+    text-align: center;
+    border: 15px solid;
+    width: 1000px;
+    margin: 20px;
+}
+#skills{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+#wb{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.solid{
+    border-style: dashed;
+}
+.webph{
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    padding-top: 4rem;
+    margin: 0
+    
+}
+#web{
+ transform: translateX(100px)translateY(-200px);
+}
+#para{
+    transform: translateY(100px)translateX(500px);
+}
+#von{
+ 
+}
+#con{
+    color: white;
+    font-size: 35px;
+    line-height: 100px;
+    text-align: center;
+}
+#para{
+    line-height: 50px;
+}
